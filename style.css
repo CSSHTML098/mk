@@ -1,0 +1,82 @@
+.Font{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(116, 160, 90);
+    
+}
+h1{
+    text-align: center;
+}
+.NOOB{
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+h3{
+ margin-right: auto;   
+}
+.box_wraper{
+    margin-top: 30px;
+    width: 80%;
+    height: 200px;
+    background-color: chartreuse;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    transition: all 0.8s;
+}
+.tor{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    transform: skew(-30deg);
+    animation: skew 3s infinite;
+    margin-right: auto;
+}
+@keyframes skew {
+    0%{
+        transform: skewX(20deg);
+    }
+    50%{
+        transform: skewX(-20deg);
+    }
+    100%{
+        transform: skewX(-20deg);
+    }
+}
+.box_wraper:hover{
+width: 100%;
+}
+.more{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    
+}
+img{
+height: 300px;
+width: 250px; ;
+display: block;
+}
+.one{
+    margin-right: auto;
+    height: 500px;
+    width: 33%;
+}
+.one h3{
+    margin-right: auto;
+}
+.main{
+    width: 50%;
+    height: 420px;
+}
+.nope img{
+    width: 120px;
+    height: 50%;
+}
+.nope{
+    margin-top: 10px;
+}
+.bltz{
+   
+}
